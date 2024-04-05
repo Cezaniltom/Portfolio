@@ -1,3 +1,5 @@
+/*C6FFFA cor dos icons*/
+
 * {
     box-sizing: border-box;
     font-family: "Open sans", sans-serif;
@@ -9,8 +11,12 @@
 }
 
 body {
-    background-color: #000000;
-    color: #027f83;
+    background: #000000;   /*fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #434343, #000000);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-width: 370px;
 }
 
 .main {
@@ -23,17 +29,18 @@ body {
 .main::before,
 .main::after {
     content: '';
-    background-image: url('../img/teste.png');
+    background: #283048;
+    background: -webkit-linear-gradient(to top, #859398, #283048);
+    background: linear-gradient(to top, #859398, #283048);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
     position: fixed;
-    width: 140vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
-     
+    z-index: -1;   
 }
 
 .main::after {  
@@ -42,7 +49,6 @@ body {
     left: auto;
     bottom: 0;
     right: 0;
-    transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 768px) {

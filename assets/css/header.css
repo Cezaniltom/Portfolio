@@ -1,7 +1,10 @@
+/*C6FFFA cor dos icons*/
+
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 310px;
 }
 
 .header .photo {
