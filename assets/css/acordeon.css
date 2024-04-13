@@ -12,8 +12,8 @@
 
 .acordeon.open,
 .acordeon:hover {
-    background-color: #008E9B;
-    border-color: #008E9B;
+    background: #002738;
+    border-color: #002738;
 }
 
 .acordeon .trigger {
@@ -41,7 +41,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../img/icons/arrow-top.svg);
-
+    transition: .25s;
 }
 
 .acordeon.open .trigger::after {
@@ -49,9 +49,15 @@
 }
 
 .acordeon .content {
-    display: none;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
 }
 
 .acordeon.open .content {
-    display: inline-block;
+    display: block;
+    height: auto;
+    opacity: 1;
+    padding: 0 1rem 1rem 1rem;
 }
