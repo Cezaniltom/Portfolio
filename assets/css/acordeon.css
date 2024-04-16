@@ -29,6 +29,11 @@
     border: none;
 }
 
+.acordeon .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
 .acordeon .trigger:hover {
     cursor: pointer;
 }
@@ -48,8 +53,9 @@
     transform: rotate(180deg);
 }
 
-.acordeon .content {
+.acordeon .content{
     overflow: hidden;
+    margin-left: 1rem;
     height: 0;
     opacity: 0;
     transition: opacity .25s ease-in-out;

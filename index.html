@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/language.css">
-
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
 
 </head>
 <body>
 
-    <div class="main">
+    <main class="main">
 
 
         <header class="header">
@@ -31,15 +32,19 @@
             <div class="information">
                 <p class="job">Software Developer</p>
                 <p class="location">Ceará - BR</p>
-                <p class="phone">(85) 9 9172-8762</p>
-                <p class="email">cezaniltom@outlook.com</p>
+                <p class="phone">
+                    <a href="tel:(85)99172-8762">(85) 99172-8762</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:cezaniltom@outlook.com">cezaniltom@outlook.com</a>
+                </p>
             </div>
 
         </header>
 
         <section class="acordeon open">          
             <button class="trigger">
-                    Idiomas
+                    <h2>Idiomas</h2>
             </button>
 
             <div class="content">
@@ -50,7 +55,73 @@
                 </ul>
             </div>
         </section>
-    </div>
+
+        <section class="acordeon open">          
+            <button class="trigger">
+                    <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades Pessoais</h3>
+                        <ul>
+                            <li>
+                                <img src="assets/img/icons/tools/html.svg" alt="html" title="html">
+                            </li>
+
+                            <li>
+                                <img src="assets/img/icons/tools/css.svg" alt="css" title="css">
+                            </li>
+
+                            <li>
+                                <img src="assets/img/icons/tools/js.svg" alt="js" title="js">
+                            </li>
+
+                            <li>
+                                <img src="assets/img/icons/tools/git.svg" alt="html" title="html">
+                            </li>
+                        </ul>
+                    </section>
+    
+                    <section class="personal">
+                        <h3>Habilidades Pessoais</h3>
+                        <ul>
+                            <li>Proatividade</li>
+                            <li>Organização</li>
+                            <li>Pensamento Analítico</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Flexibilidade</li>
+                        </ul>
+                    </section>
+                </div>
+              
+            </div>
+        </section>
+
+        <section class="acordeon">          
+            <button class="trigger">
+                <h2>Projetos</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Criando um app de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">Google.com</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando um app de lembrete</h3>
+                        <a href="http://www.google.com.br" target="_blank">Google.com</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando um app de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">Google.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
     
 
     <script src="assets/js/acordeon.js"></script>

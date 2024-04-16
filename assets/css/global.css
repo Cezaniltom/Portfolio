@@ -19,6 +19,14 @@ body {
     min-width: 370px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 .main {
     padding: 1rem;
     margin: 1rem;
