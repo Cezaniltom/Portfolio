@@ -1,8 +1,6 @@
-/*C6FFFA cor dos icons*/
-
 * {
     box-sizing: border-box;
-    font-family: "Open sans", sans-serif;
+    font-family: 'Open sans', sans-serif;
 }
 
 @font-face {
@@ -11,7 +9,7 @@
 }
 
 body {
-    background: #000000;   /*fallback for old browsers */
+    background: #000000;
     background: -webkit-linear-gradient(to top, #434343, #000000);
     background: linear-gradient(to top, #434343, #000000);
     background-repeat: no-repeat;
@@ -31,7 +29,7 @@ a:hover {
     padding: 1rem;
     margin: 1rem;
     border: 1px solid #C6FFFA;
-    border-radius: .5rem;
+    border-radius: 1rem;
 }
 
 .main::before,
