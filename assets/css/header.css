@@ -44,19 +44,19 @@
 }
 
 .information .job::before {
-    background-image: url(/assets/img/icons/test2.svg);
+    background-image: url(../img/icons/test2.svg);
 }
 
 .information .email::before {
-    background-image: url(/assets/img/icons/email_open.svg);
+    background-image: url(../img/icons/email_open.svg);
 }
 
 .information .location::before {
-    background-image: url(/assets/img/icons/localization.svg);
+    background-image: url(../img/icons/localization.svg);
 }
 
 .information .phone::before {
-    background-image: url(/assets/img/icons/whatsapp_figma.svg);
+    background-image: url(../img/icons/whatsapp_figma.svg);
 }
 
 @media only screen and (min-width: 768px){ 

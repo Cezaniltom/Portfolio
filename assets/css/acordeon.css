@@ -12,6 +12,7 @@
 .acordeon:hover {
     background: #002738;
     border-color: #002738;
+    border: 1px solid #fff;
 }
 
 .acordeon .trigger {
