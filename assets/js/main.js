@@ -20,7 +20,7 @@ function updateProfileInfo(profileData) {
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
-    email.href = `maito:${profileData.email}`
+    email.href = `mailto:${profileData.email}`
 }
 
 (async () => {
