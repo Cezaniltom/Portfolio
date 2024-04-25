@@ -52,14 +52,23 @@
     "portfolio": [
       {
         "name": "Pokedex",
-        "url": "https://cezaniltom-pokedex.netlify.app/",
+        "url": "https://github.com/Cezaniltom/Pokedex-DIO",
+        "github": true
+      },
+      {
+        "name": "Calculadora",
+        "url": "https://github.com/Cezaniltom/Calculadora",
+        "github": true
+      },
+      {
+        "name": "To Do List",
+        "url": "https://github.com/Cezaniltom/Lista-Tarefas",
         "github": true
       },
       {
         "name": "Portfolio",
-        "url": "https://cezaniltom.github.io/Portfolio/",
+        "url": "https://github.com/Cezaniltom/Portfolio",
         "github": true
       }
-      
     ]
   }
