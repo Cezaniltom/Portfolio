@@ -69,10 +69,10 @@
         "url": "https://github.com/Cezaniltom/Portfolio",
         "github": true
       }, 
-        {
-          "name": "Calculadora React",
-          "url": "https://github.com/Cezaniltom/React-calc",
-          "github": true
-        }  
+      {
+        "name": "Calculadora React",
+        "url": "https://github.com/Cezaniltom/React-calc",
+        "github": true
+      }  
     ]
   }
