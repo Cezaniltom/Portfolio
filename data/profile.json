@@ -68,9 +68,11 @@
         "name": "Portfolio",
         "url": "https://github.com/Cezaniltom/Portfolio",
         "github": true
-      }, {
+      }, 
+        {
           "name": "Calculadora React",
           "url": "git@github.com:Cezaniltom/React-calc.git"
           "github": true
+        }  
     ]
   }
